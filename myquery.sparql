@@ -2,10 +2,10 @@
 #+ pagination: 10
 
 #+ transform: {
-#+     "band": "?band",
+#+     "@id": "?band",
 #+     "album": "?album",
 #+     "genre": "?genre",
-#+     "$anchor": "band"
+#+     "$anchor": "@id"
 #+   }
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
