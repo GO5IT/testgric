@@ -1,11 +1,5 @@
 #+ endpoint: https://dbpedia.org/sparql
 #+ pagination: 10
-#+ transform: {
-#+     "key1": "?band",
-#+     "value1": "?album",
-#+     "value2": "?genre",
-#+     "$anchor": "key1"
-#+   }
 
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbr: <http://dbpedia.org/resource/>
